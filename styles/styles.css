@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to bottom, #b71c1c, #000000);
+    background-attachment: fixed;
+    color: white;
+}
+
+.carousel-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    width: 400px;
+    height: 360px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.header-title {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-subtitle {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
