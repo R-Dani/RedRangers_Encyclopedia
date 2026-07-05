@@ -26,3 +26,9 @@ body {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.card {
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+}
