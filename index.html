@@ -10,68 +10,70 @@
 </head>
 
 <body>
-    <div class="header-section">
-        <h1 class="header-title">Red Ranger Encyclopedia</h1>
-        <p class="header-subtitle">El Ranger rojo es el líder del equipo y es conocido por su valentía y coraje.</p>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <h1>Red Ranger Encyclopedia</h1>
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <h2 class="section-title" align="center">Línea del tiempo ⏱️</h2>
     </div>
 
-    <div class="container text-center">
-        <div class="main-image-container">
-            <img src="assets/all-red-rangers.jpg" alt="Todos los Red Rangers" class="img-fluid">
-        </div>
-
-        <div>
-            <h2 class="section-title">Línea del tiempo ⏱️</h2>
-        </div>
-
-        <div class="carousel-wrapper">
-            <div id="myCarousel" class="carousel slide carousel-container" data-bs-ride="carousel"
-                data-bs-interval="3000">
+    <div class="carousel-wrapper">
+        <div id="myCarousel" class="carousel slide carousel-container" data-bs-ride="carousel" data-bs-interval="3000">
 
 
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="card">
-                            <img class="card-img-top" src="assets/mightyRed.png" alt="Mighty Morphin Red Ranger">
-                            <h4 class="card-title">Mighty Morphin Red Ranger</h4>
-                            <p class="card text">El lider de los Mighty Morphin. Con el poder del tiranosaurio,
-                                destaca su valentía, liderazgo y fuerte sentido de la justicia.</p>
-                            <a href="mightyMophin.html" class="btn btn-primary">Info</a>
-                        </div>
-
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/mightyRed.png" alt="Mighty Morphin Red Ranger">
+                        <h4 class="card-title">Mighty Morphin Red Ranger</h4>
+                        <p class="card text">El lider de los Mighty Morphin. Con el poder del tiranosaurio,
+                            destaca su valentía, liderazgo y fuerte sentido de la justicia.</p>
+                        <a href="mightyMophin.html" class="btn btn-primary">Info</a>
                     </div>
 
-                    <div class="carousel-item">
-                        <div class="card">
-                            <img class="card-img-top" src="assets/zeo.png" alt="Zeo Red Ranger">
-                            <h4 class="card-title">Zeo Red Ranger</h4>
-                            <p class="card text">Lider de los Power Rangers Zeo. Destaca por su gran
-                                fuerza, velocidad y resistencia gracias al poder del cristal Zeo.</p>
-                            <a href=" " class="btn btn-primary">Info</a>
-                        </div>
-                    </div>
+                </div>
 
-                    <div class="carousel-item">
-                        <div class="card">
-                            <img class="card-img-top" src="assets/turbo.png" alt="Turbo Red Ranger">
-                            <h4 class="card-title">Turbo Red Ranger</h4>
-                            <p class="card text">Lider de los Power Rangers Turbo. Esta armado con
-                                la Espada Turbo y tecnologia inspirada en vehiculos de alto rendimiento. </p>
-                            <a href=" " class="btn btn-primary">Info</a>
-                        </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/zeo.png" alt="Zeo Red Ranger">
+                        <h4 class="card-title">Zeo Red Ranger</h4>
+                        <p class="card text">Lider de los Power Rangers Zeo. Destaca por su gran
+                            fuerza, velocidad y resistencia gracias al poder del cristal Zeo.</p>
+                        <a href=" " class="btn btn-primary">Info</a>
                     </div>
+                </div>
 
-                    <div class="carousel-item">
-                        <div class="card">
-                            <img class="card-img-top" src="assets/space.png" alt="Space Red Ranger">
-                            <h4 class="card-title">Space Red Ranger</h4>
-                            <p class="card text">Lider de los Power Rangers Space. Destaca por su liderazgo
-                                y su inquebrantable compromiso de proteger la galaxia de las fuerzas del mal.</p>
-                            <a href=" " class="btn btn-primary">Info</a>
-                        </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/turbo.png" alt="Turbo Red Ranger">
+                        <h4 class="card-title">Turbo Red Ranger</h4>
+                        <p class="card text">Lider de los Power Rangers Turbo. Esta armado con
+                            la Espada Turbo y tecnologia inspirada en vehiculos de alto rendimiento. </p>
+                        <a href=" " class="btn btn-primary">Info</a>
                     </div>
+                </div>
 
-                    <!--<div class="carousel-item">
+                <div class="carousel-item">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/space.png" alt="Space Red Ranger">
+                        <h4 class="card-title">Space Red Ranger</h4>
+                        <p class="card text">Lider de los Power Rangers Space. Destaca por su liderazgo
+                            y su inquebrantable compromiso de proteger la galaxia de las fuerzas del mal.</p>
+                        <a href=" " class="btn btn-primary">Info</a>
+                    </div>
+                </div>
+
+                <!--<div class="carousel-item">
                         <img src="assets/galaxy.jpg" alt="Galaxy Red Ranger">
                     </div>
 
@@ -110,19 +112,19 @@
                     <div class="carousel-item">
                         <img src="assets/jungleFury.png" alt="Jungle Fury Red Ranger">
                     </div> -->
-                </div>
-
-                <!-- Left and right controls -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
             </div>
+
+            <!-- Left and right controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
         </div>
+    </div>
     </div>
 
     <!-- Bootstrap JS dependencies -->

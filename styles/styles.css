@@ -38,3 +38,12 @@ body {
     border-color: rgb(194, 2, 2);
     color: rgb(255, 255, 255);
 }
+
+.navbar {
+    background-color: black;
+    border-color: transparent;
+}
+
+.navbar h1 {
+    color: rgb(194, 2, 2);
+}
