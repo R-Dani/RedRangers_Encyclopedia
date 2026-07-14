@@ -39,11 +39,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.navbar {
-    background-color: black;
-    border-color: transparent;
-}
-
-.navbar h1 {
-    color: rgb(194, 2, 2);
+.container {
+    background: linear-gradient(to bottom, black, transparent);
+    color: white;
 }
