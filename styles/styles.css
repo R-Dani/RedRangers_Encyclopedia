@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #b71c1c, #000000);
+    background: radial-gradient(circle,rgba(250, 15, 15, 1) 0%, rgba(89, 4, 4, 1) 38%, rgba(0, 0, 0, 1) 82%);
     background-attachment: fixed;
     color: white;
 }
@@ -75,5 +75,16 @@ body {
 
 .container {
     background: linear-gradient(to bottom, black, transparent);
+    color: white;
+}
+
+.navbar-inverse {
+    background: linear-gradient(to bottom, black, rgb(56, 10, 10));
+    border: 2px solid rgba(249, 3, 3, 0.714);
+    border-radius: 15px;
+
+}
+
+.navbar-header {
     color: white;
 }
