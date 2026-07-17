@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
 }
 
-.carousel-control-prev, .carousel-control-next {
+/*.carousel-control-prev, .carousel-control-next {
     width: 70px;
     height: 70px;
 
@@ -49,7 +49,7 @@ body {
         0 0 40px rgba(255, 0, 0, .4);
 
     transform: scale(1.08);
-}
+}*/
 
 .header-title {
     text-align: center;
