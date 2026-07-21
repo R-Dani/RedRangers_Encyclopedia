@@ -79,6 +79,21 @@ radial-gradient(circle at 75% 20%, rgb(194, 2, 2), 5%, transparent 35%);
     background-color: rgb(194, 2, 2);
     border-color: rgb(194, 2, 2);
     color: rgb(255, 255, 255);
+    transition: all 0.1s ease;
+}
+
+.btn-primary:hover{
+    background-color: whitesmoke;
+    border-color: red;
+    color: red;
+    transform: scale(0.90);
+}
+
+.btn-primary:active{
+    background-color: whitesmoke;
+    border-color: red;
+    color: red;
+    transform: scale(0.90);
 }
 
 .container {
